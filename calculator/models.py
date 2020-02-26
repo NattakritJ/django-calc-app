@@ -6,3 +6,7 @@ class calc(models.Model):
     y = models.FloatField(blank=True)
     operations = models.CharField(max_length=1, blank=True)
     result = models.CharField(max_length=20, blank=True)
+
+    def get_all_objects(self):
+        queryset = self._meta.model.objects.all()
+        return queryset
