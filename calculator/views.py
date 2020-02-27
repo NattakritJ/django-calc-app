@@ -3,12 +3,13 @@ from .forms import CalcForm
 from .models import Calc
 # Create your views here.
 def main(request):
+    checksubmit = False
     if request.POST.get('clearall'):
         Calc.objects.all().delete()
     allobject = Calc.objects.all()
     objectsize = Calc.objects.count()
     result = "0.0"
-    if objectsize > 19:
+    if objectsize > 10:
         Calc.objects.all()[:1].get().delete()
     if request.method == "POST":
         form = CalcForm(request.POST)
@@ -27,9 +28,13 @@ def main(request):
             result = data.result
             form.save()
             form = CalcForm()
+            checksubmit = True
     else:
         form = CalcForm()
-    return render(request, 'main.html', {'form': form,'allobject': allobject,'result':result})
+    return render(request, 'main.html', {'form': form,
+                                         'allobject': allobject,
+                                         'result':result,
+                                         'checksubmit':checksubmit})
 
 def aboutme(request):
     return render(request, 'aboutme.html')

@@ -68,6 +68,7 @@ class AllTest(LiveServerTestCase):
         title = self.browser.find_element_by_tag_name('h2').text
         self.assertIn('Calculator GET Method', title)
         time.sleep(2)
+
     def test_user_can_use_calculator_in_GET_method(self):
         self.browser.get(self.live_server_url+ '/get')
         title = self.browser.find_element_by_tag_name('h2').text

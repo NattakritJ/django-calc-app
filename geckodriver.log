@@ -3188,3 +3188,81 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1582789318429	Marionette	INFO	Stopped listening on port 50261
+1582792078980	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofileYE4o36"
+1582792079369	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792079620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792079620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792079621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792079621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792081079	Marionette	INFO	Listening on port 50356
+1582792081121	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50348/, line 37: TypeError: document.querySelector(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:50348/, line 37: TypeError: document.querySelector(...) is null
+JavaScript error: http://localhost:50348/get/, line 36: TypeError: document.querySelector(...) is null
+1582792086115	Marionette	INFO	Stopped listening on port 50356
+1582792087649	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofileqd2Qj2"
+1582792088029	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792088284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792088284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792088284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792088284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792089737	Marionette	INFO	Listening on port 50387
+1582792089799	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50348/get/, line 36: TypeError: document.querySelector(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:50348/get/?clearall=clearall, line 36: TypeError: document.querySelector(...) is null
+JavaScript error: http://localhost:50348/, line 37: TypeError: document.querySelector(...) is null
+1582792094786	Marionette	INFO	Stopped listening on port 50387
+1582792223876	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofileG6tybr"
+1582792224266	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792224517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792224517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792224517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792224517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792225948	Marionette	INFO	Listening on port 50421
+1582792226030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50413/, line 37: TypeError: document.querySelector(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:50413/, line 37: TypeError: document.querySelector(...) is null
+JavaScript error: http://localhost:50413/get/, line 36: TypeError: document.querySelector(...) is null
+1582792231020	Marionette	INFO	Stopped listening on port 50421
+1582792232558	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofileGvwdDm"
+1582792232993	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792233282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792233282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792233282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792233282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792234862	Marionette	INFO	Listening on port 50452
+1582792234897	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50413/get/, line 36: TypeError: document.querySelector(...) is null
+1582792235029	Marionette	INFO	Stopped listening on port 50452
+1582792250941	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofile7V1P7v"
+1582792251324	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792251586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792251586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792251586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792251586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792253061	Marionette	INFO	Listening on port 50487
+1582792253085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50479/, line 37: TypeError: document.querySelector(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582792256199	Marionette	INFO	Stopped listening on port 50487
+1582792257715	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m9/_89ggtx94gv8_35h53qmlgyr0000gn/T/rust_mozprofileh4w7fZ"
+1582792258113	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582792258361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582792258361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582792258361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582792258361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582792259822	Marionette	INFO	Listening on port 50518
+1582792259877	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:50479/get/, line 36: TypeError: document.querySelector(...) is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:50479/get/?clearall=clearall, line 36: TypeError: document.querySelector(...) is null
+JavaScript error: http://localhost:50479/, line 37: TypeError: document.querySelector(...) is null
+1582792264868	Marionette	INFO	Stopped listening on port 50518

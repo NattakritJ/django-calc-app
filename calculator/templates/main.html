@@ -12,7 +12,16 @@
       </p>
     {% endfor %}
     <button name="submit" type="submit">Calculate</button>
-  </form>
+  </form></br>
+    {% if checksubmit is True %}
+    <label>Do you want to continue calculating?</label></br></br>
+    <input id="continue" type="button" value="Continue"/>
+    {% endif %}
+<script>
+    document.querySelector('#continue').onclick = function(e) {
+        document.querySelector('#id_x').value = '{{ result }}';
+    };
+</script>
 <h1>result : {{ result }}</h1>
 <form method="post">
  {% csrf_token %}
