@@ -30,3 +30,6 @@ def main(request):
     else:
         form = CalcForm()
     return render(request, 'main.html', {'form': form,'allobject': allobject,'result':result})
+
+def aboutme(request):
+    return render(request, 'aboutme.html')
