@@ -1,5 +1,5 @@
 from django import forms
-from .models import Calc
+from .models import CalcGET
 class CalcForm(forms.ModelForm):
     operation_type = [
         ('+', '+'),
@@ -9,5 +9,5 @@ class CalcForm(forms.ModelForm):
     ]
     operations = forms.CharField(label="Choose operation", widget=forms.Select(choices=operation_type))
     class Meta:
-        model = Calc
+        model = CalcGET
         fields = ('x','y','operations',)

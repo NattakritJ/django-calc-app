@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<title>Basic Calculator</title>
-<h2>Calculator POST Method</h2>
-<a href="/get">Go to GET method</a>
-  <form method="post">
-    {% csrf_token %}
+<title>Basic Calculator GET</title>
+<h2>Calculator GET Method</h2>
+<a href="/">Go to POST method</a>
+  <form method="get">
     {% for field in form %}
       <p>
         {{ field.label_tag }}<br>
@@ -13,8 +12,7 @@
     <button name="submit" type="submit">Calculate</button>
   </form>
 <h1>result : {{ result }}</h1>
-<form method="post">
- {% csrf_token %}
+<form method="get">
   <button name="clearall" value="clearall" >Clear all</button>
 </form>
 <br>

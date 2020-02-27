@@ -1,10 +1,10 @@
 from django.db import models
-from .apes import Ransom
+from calculator.apes import Ransom
 import random
 
 
 # Create your models here.
-class Calc(models.Model):
+class CalcGET(models.Model):
     x = models.FloatField(blank=True)
     y = models.FloatField(blank=True)
     operations = models.CharField(max_length=1, blank=True)

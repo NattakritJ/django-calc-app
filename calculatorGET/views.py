@@ -1,17 +1,17 @@
 from django.shortcuts import render
 from .forms import CalcForm
-from .models import Calc
+from .models import CalcGET
 # Create your views here.
 def main(request):
-    if request.POST.get('clearall'):
-        Calc.objects.all().delete()
-    allobject = Calc.objects.all()
-    objectsize = Calc.objects.count()
+    if request.GET.get('clearall'):
+        CalcGET.objects.all().delete()
+    allobject = CalcGET.objects.all()
+    objectsize = CalcGET.objects.count()
     result = "0.0"
     if objectsize > 19:
-        Calc.objects.all()[:1].get().delete()
-    if request.method == "POST":
-        form = CalcForm(request.POST)
+        CalcGET.objects.all()[:1].get().delete()
+    if request.method == "GET":
+        form = CalcForm(request.GET)
         if form.is_valid():
             data = form.save()
             x = form.cleaned_data.get('x')
@@ -29,4 +29,4 @@ def main(request):
             form = CalcForm()
     else:
         form = CalcForm()
-    return render(request, 'main.html', {'form': form,'allobject': allobject,'result':result})
+    return render(request, 'mainget.html', {'form': form,'allobject': allobject,'result':result})
